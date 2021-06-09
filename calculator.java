@@ -5,8 +5,8 @@ public class calculator{
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		b = sc.nextInt();
-		int add = a+b;
-		int diff = a-b;
+		int add = 2*a+2*b;
+		int diff = 2*a-2*b;
 		System.out.println(add);
 		System.out.println(diff);
 	}
